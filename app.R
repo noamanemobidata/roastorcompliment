@@ -263,4 +263,4 @@ server <- function(input, output, session) {
 }
 
 # Run the application
-shinyApp(ui = ui, server = server)
+shiny::shinyApp(ui, server,options = list(port =3838 ,host = "0.0.0.0"))
