@@ -31,4 +31,4 @@ EXPOSE 3838
 WORKDIR /app
 
 # Start the Shiny app
-CMD ["Rscript", "main.R"]
+CMD ["Rscript", "app.R"]
