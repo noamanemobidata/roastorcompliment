@@ -116,8 +116,8 @@ ui <- page(
                      ),
                      br(),
                      fluidRow(
-                       column(6, actionButton(inputId = "roast", label = "🔥 Roast", width = "100%", class = "btn btn-light")),
-                       column(6, actionButton(inputId = "compliment", label = "❤️ Compliment", width = "100%", class = "btn btn-light"))
+                       column(6, input_task_button(id  = "roast", label = "🔥 Roast",style= 'width:100%;', class = "btn btn-light")),
+                       column(6, input_task_button(id= "compliment", label = "❤️ Compliment," ,style= 'width:100%;', class = "btn btn-light"))
                      )
                    )
                  ),
